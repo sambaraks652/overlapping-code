@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.syllabus {
+    list-style: none;
+    padding: 0;
+}
+
+.syllabus>li {
+    margin-bottom: 10px;
+}
+
+.syllabus li::before {
+    content: '\2192';
+    margin-right: 8px;
+    color: #0066cc;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+</head>
+
+<body>
+
+    <h2>Personal Information Form</h2>
+
+    <form>
+
+        <label for="title">Title:</label>
+        <select id="title" name="title">
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+            <option value="miss">Miss</option>
+            <option value="ms">Ms</option>
+            <option value="dr">Dr</option>
+        </select><br><br>
+
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+            <option value="under_20">under 20</option>
+            <option value="20_29">20—29</option>
+            <option value="30_39">30—39</option>
+            <option value="40_49">40—49</option>
+            <option value="50_59">50—59</option>
+            <option value="over_60">over 60</option>
+        </select><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="status">Status:</label>
+        <select id="status" name="status">
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="student">Student</option>
+        </select><br><br>
+
+        <label for="dob_day">Day:</label>
+        <select id="dob_day" name="dob_day">
+            <!-- Dynamically generate days or manually list them -->
+            <option value="1">1</option>
+            <!-- Add options for each day up to 31 -->
+        </select>
+
+        <label for="dob_month">Month:</label>
+        <select id="dob_month" name="dob_month">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <!-- Continue for all months -->
+        </select>
+
+        <label for="dob_year">Year:</label>
+        <select id="dob_year" name="dob_year">
+            <!-- Dynamically generate years or manually list them -->
+            <option value="1960">1960</option>
+            <!-- Add options for each year up to the current year or desired year -->
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
